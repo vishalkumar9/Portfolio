@@ -1,0 +1,13 @@
+.con {
+  background-image: url("../../img/project.jpg");
+}
+.pdf-container {
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: auto;
+  height: 100vh;
+  overflow-y: auto;
+}
+@media screen and(min-width:400px) and (max-width) {
+}

@@ -1,0 +1,50 @@
+.projectcard {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  max-width: 370px;
+  min-height: 600px;
+  margin: 2%;
+  text-align: center;
+  color: aliceblue;
+  background-color: rgb(31, 31, 31);
+  cursor: pointer;
+  transition: 0.4s;
+  border-radius: 40px;
+  box-shadow: 5px 5px 10px 7px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+}
+
+.title {
+  color: aliceblue;
+  font-size: xx-large;
+  padding-bottom: 15%;
+}
+.projectcard p {
+  font-size: x-large;
+}
+
+.projectcard a {
+  text-decoration: none;
+  font-size: xx-large;
+  color: aliceblue;
+}
+
+button:hover,
+a:hover {
+  opacity: 0.6;
+}
+
+.projectcard:hover {
+  transform: scale(1.1);
+  border-color: aliceblue;
+  box-shadow: 5px 5px 30px 15px rgba(220, 234, 243, 0.25),
+    -5px -5px 30px 15px rgba(164, 171, 175, 0.25);
+}
+@media screen and (min-width: 200px) and (max-width: 860px) {
+  .projectcard {
+    max-width: auto;
+    margin: auto;
+  }
+  .projectcard:hover {
+    transform: scale(1);
+  }
+}

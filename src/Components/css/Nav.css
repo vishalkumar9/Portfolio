@@ -1,0 +1,29 @@
+.nav-link {
+  background-color: rgb(31, 31, 31);
+  position: sticky;
+  top: 0; /* for sticky navbar */
+  z-index: 100;
+  min-width: 10%;
+}
+
+.nav-link,
+ul {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
+.nav-link,
+ul,
+li {
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: x-large;
+}
+.nav-link,
+ul,
+li a {
+  color: aliceblue;
+  text-decoration: none;
+}
