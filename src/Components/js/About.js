@@ -1,4 +1,6 @@
 import "../css/About.css";
+/*
+* this function is about personal information*/
 function About() {
   return (
     <div className="about">
