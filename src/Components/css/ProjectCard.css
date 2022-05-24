@@ -5,7 +5,7 @@
   margin: 2%;
   text-align: center;
   color: aliceblue;
-  background-color: rgb(31, 31, 31);
+  background-color: rgb(1, 10, 34);
   cursor: pointer;
   transition: 0.4s;
   border-radius: 40px;
@@ -35,9 +35,12 @@ a:hover {
 
 .projectcard:hover {
   transform: scale(1.1);
-  border-color: aliceblue;
-  box-shadow: 5px 5px 30px 15px rgba(220, 234, 243, 0.25),
-    -5px -5px 30px 15px rgba(164, 171, 175, 0.25);
+  border-color: rgb(1, 10, 34);
+  box-shadow: 5px 5px 30px 15px rgba(12, 81, 170, 0.25),
+    -5px -5px 30px 15px rgba(12, 81, 170, 0.25);
+  /* border-color: rgb(105, 20, 101); */
+  /* box-shadow: 5px 5px 30px 15px rgba(177, 12, 89, 0.25),
+    -5px -5px 30px 15px rgba(177, 12, 89, 0.25); */
 }
 @media screen and (min-width: 200px) and (max-width: 860px) {
   .projectcard {

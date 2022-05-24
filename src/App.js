@@ -1,9 +1,10 @@
 import Nav from "./Components/js/Nav";
-import "./App.css";
+import Middle from "./Components/js/Middle";
 function App() {
   return (
     <div className="app">
       <Nav />
+      <Middle />
     </div>
   );
 }

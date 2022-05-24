@@ -1,51 +1,49 @@
-import Home from "./Home";
-import About from "./About";
-import Achievements from "./Achievements";
-import Project from "./Project";
-import Skill from "./Skill";
-import Resume from "./Resume";
+// import Home from "./Home";
+// import About from "./About";
+// import Achievements from "./Achievements";
+// import Project from "./Project";
+// import Skill from "./Skill";
+// import Resume from "./Resume";
+import { Link } from "react-scroll";
 import "../css/Nav.css";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+
 function Nav() {
   return (
-    <Router>
-      <div className="nav-link">
-        {/* <h2>PORTFOLIO</h2> */}
-        <li>
-          <Link to="/">
-            <h2>PORTFOLIO</h2>
+    <div className="nav-link">
+      <div className="port">
+        <h1>
+          <Link activeClass="active" to="Home" spy={true} smooth={true}>
+            <span style={{ color: "rgb(1, 10, 34)" }}>PORT</span>
+            <span style={{ color: "rgb(11, 146, 184)" }}>FOLIO</span>
           </Link>
-        </li>
-        <ul>
-          <li>
-            <Link to="/About">About</Link>
-          </li>
-          <li>
-            <Link to="/Project">Project</Link>
-          </li>
-          <li>
-            <Link to="/Skill">Skill</Link>
-          </li>
-          <li>
-            <Link to="/Achievements">Achievements</Link>
-          </li>
-          <li>
-            <Link to="/Resume">Resume</Link>
-          </li>
-        </ul>
+        </h1>
       </div>
-      {/* <div className="content"> */}
-      <Switch>
-        <Route exact path="/Project" component={Project}></Route>
-        <Route exact path="/Skill" component={Skill}></Route>
-        <Route exact path="/Achievements" component={Achievements}></Route>
-        <Route exact path="/Resume" component={Resume}></Route>
-        <Route exact path="/about" component={About}></Route>
-        <Route exact path="/" component={Home}></Route>
-      </Switch>
-
-      {/* </div> */}
-    </Router>
+      <div className="dropdown">
+        <div className="dropbtn">
+          <h1>
+            <span style={{ color: "rgb(1, 10, 34)" }}>MEN</span>
+            <span style={{ color: "rgb(11, 146, 184)" }}>U</span>
+          </h1>
+        </div>
+        <div class="dropdown-content">
+          <Link to="About" spy={true} smooth={true}>
+            About
+          </Link>
+          <Link to="Project" spy={true} smooth={true}>
+            Project
+          </Link>
+          <Link to="Skill" spy={true} smooth={true}>
+            Skill
+          </Link>
+          <Link to="Acheivements" spy={true} smooth={true}>
+            Achievements
+          </Link>
+          <Link to="Resume" spy={true} smooth={true}>
+            Resume
+          </Link>
+        </div>
+      </div>
+    </div>
   );
 }
 
