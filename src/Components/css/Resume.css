@@ -1,13 +1,15 @@
 .con {
-  background-image: url("../../img/project.jpg");
+  height: 100vh;
+  padding-top: 150px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  justify-content: center;
 }
 .pdf-container {
-  padding-top: 2%;
-  padding-left: 5%;
-  padding-right: 5%;
-  width: auto;
+  margin: auto;
+  width: 60%;
   height: 100vh;
   overflow-y: auto;
-}
-@media screen and(min-width:400px) and (max-width) {
 }

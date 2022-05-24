@@ -4,13 +4,13 @@ import CR from "../../img/CR.png";
 import DG from "../../img/DG.png";
 import SA from "../../img/SA.png";
 import PF from "../../img/portfolio.PNG";
+import RM from "../../img/RM.png";
+import LS from "../../img/LS.png";
 import ProjectCard from "./ProjectCard.js";
 
 function Project() {
   const ProjectData = [
     {
-      // title: "Weather App",
-      // subheader: "October 5, 2020",
       title: "Weather Forecast Web Application",
       method:
         "Here we can check weather of different places in the World Using OpenWeather API",
@@ -18,8 +18,6 @@ function Project() {
       image: WA,
     },
     {
-      // title: "Cool Recipe",
-      // subheader: "August 2, 2021",
       title: "Recipe Web Application",
       method:
         "A CoolRecipe is a web application where we can find many cooking recipes for your special days. We use Forkify API to get  data.Features - Upload your recipe, bookmark your favorite recipe",
@@ -28,8 +26,6 @@ function Project() {
       image: CR,
     },
     {
-      // title: "Dice Game",
-      // subheader: "May 19, 2021",
       title: "Dice Game Web Application",
       method:
         "Simple two players dice game where you have to maximize your final score more than opponents",
@@ -38,8 +34,6 @@ function Project() {
       image: DG,
     },
     {
-      // title: "Sentiment Analysis",
-      // subheader: "September 26, 2020",
       title: "Social media sentiment analysis using twitterdataset",
       method:
         "Sentimental analysis studies the subjective information in an expression, that is the opinion, emotions or attitude towards topic",
@@ -49,14 +43,26 @@ function Project() {
       image: SA,
     },
     {
-      // title: "Sentiment Analysis",
-      // subheader: "September 26, 2020",
       title: "Portfolio",
       method:
         " Portfolio Website to display some of my skills in a beautiful manner",
       short: "PF",
       location: "https://github.com/vishalkumar9/Portfolio",
       image: PF,
+    },
+    {
+      title: "Result Management System",
+      method:
+        "Full Stack Project Using Reactjs as Frontend and Firebase As backend.",
+      location: "https://github.com/vishalkumar9/StudentResultManagementSystem",
+      image: RM,
+    },
+    {
+      title: "Lets'Share",
+      method:
+        "Full Stack Project Using Reactjs as Frontend and Nodejs and Expressjs As backend and MongoDb as Storage.",
+      location: "https://github.com/vishalkumar9/Lets-Share",
+      image: LS,
     },
   ];
 

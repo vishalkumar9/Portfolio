@@ -7,6 +7,9 @@ import cp from "../../img/C++.png";
 import gt from "../../img/Git.png";
 import gh from "../../img/Github.jpg";
 import li from "../../img/Linux.jpg";
+import fb from "../../img/firebase.png";
+import nd from "../../img/nodejs.png";
+import mdb from "../../img/mongodb.png";
 function Skill() {
   return (
     <div className="skill">
@@ -22,6 +25,12 @@ function Skill() {
       <div class="card 4">
         <img src={cs} alt={""} />
       </div>
+      <div class="card 9">
+        <img src={nd} alt={""} />
+      </div>
+      <div class="card 9">
+        <img src={mdb} alt={""} />
+      </div>
       <div class="card 5">
         <img src={cp} alt={""} />
       </div>
@@ -33,6 +42,9 @@ function Skill() {
       </div>
       <div class="card 8">
         <img src={li} alt={""} />
+      </div>
+      <div class="card 9">
+        <img src={fb} alt={""} />
       </div>
     </div>
   );

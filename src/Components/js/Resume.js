@@ -6,7 +6,7 @@ import { defaultLayoutPlugin } from "@react-pdf-viewer/default-layout";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import "@react-pdf-viewer/default-layout/lib/styles/index.css";
 import { Worker } from "@react-pdf-viewer/core";
-import pdfFile from "../../VishalKumarSingh_Resume .pdf";
+import pdfFile from "../../VishalKumarSingh_Resume.pdf";
 function Resume() {
   const defaultLayoutPluginInstance = defaultLayoutPlugin();
   const [defaultPdfFile] = useState(pdfFile);
